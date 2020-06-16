@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body,html {
+    margin: 0;
+}
+
+.main {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.header {
+    padding: 10px 20px;
+    background-color: green;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    font-weight: 400;
+}
+.group {
+    margin: 16px;
+    position: relative;
+}
+.ima {
+    width: 40%;
+    float: left; 
+}
+
+.word {
+    width: 60%;
+    margin: 0;
+    float: left;
+    padding: 10px;
+}
+.box1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box3::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box4::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box5::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h1 {
+    margin-top: 0;
+}
